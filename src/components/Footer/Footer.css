@@ -1,6 +1,6 @@
 .footer {
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--color-footer-bg);
+    color:var(--color-footer);
     height: 375px;
 }
 
@@ -66,7 +66,6 @@ justify-content: space-between;
 }
 
 .footer__icon {
-    color: var(--color-white);
     cursor: pointer;
     width: 28px;
     height: 28px;
@@ -78,5 +77,5 @@ justify-content: space-between;
 
 footer a {
     text-decoration: none;
-    color: var(--color-white);
+    color: var(--color-footer);
 }

@@ -4,6 +4,8 @@
     padding: 0 30px;
     margin: 0 auto;
     margin-bottom: 140px;
+    background-color: var(--color-background);
+    color:var(--color-primary);
 }
 
 .quoteSection__left {

@@ -6,6 +6,7 @@
     height: 175px;
     filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.15));
     cursor: pointer;
+    color: var(--color-primary);
 }
 
 .bottomOption:hover {
@@ -22,5 +23,5 @@
 
 .bottomOption__details a{
     font-size: 16px;
-    color: var(--color-white)
+    color: white;
 }

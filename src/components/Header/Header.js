@@ -1,7 +1,8 @@
 import React from "react";
 import "./Header.css";
+import ThemeToggle from "../Toggle/ThemeToggle";
 
-function Header() {
+function Header({ toggleTheme,theme }) {
   return (
     <header className="header">
       <div className="header__logoContainer">
@@ -9,6 +10,7 @@ function Header() {
           Future one
         </a>
       </div>
+      
       <nav className="header__menu">
         <ul>
           <li>
@@ -34,6 +36,9 @@ function Header() {
           </li>
         </ul>
       </nav>
+
+      <ThemeToggle toggleTheme={toggleTheme} theme={theme} />
+
       <button className="header__button">Contact Us</button>
     </header>
   );

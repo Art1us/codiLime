@@ -9,6 +9,9 @@
     margin: 0 auto;
     margin-bottom: 120px;
 
+    background-color: var(--color-background);
+    color:var(--color-primary);
+
 }
 
 .heroBanner__left {

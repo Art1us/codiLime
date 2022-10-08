@@ -1,0 +1,23 @@
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  .app{
+    background-color: var(--color-background);
+    color: var(--color-primary);
+  }
