@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/codiLime/static/css/main.35d17ffa.css",
+    "main.js": "/codiLime/static/js/main.1f5bba1c.js",
+    "static/js/787.c01dc334.chunk.js": "/codiLime/static/js/787.c01dc334.chunk.js",
+    "static/media/pic1.png": "/codiLime/static/media/pic1.7e8b45606b9c367bedbe.png",
+    "index.html": "/codiLime/index.html",
+    "main.35d17ffa.css.map": "/codiLime/static/css/main.35d17ffa.css.map",
+    "main.1f5bba1c.js.map": "/codiLime/static/js/main.1f5bba1c.js.map",
+    "787.c01dc334.chunk.js.map": "/codiLime/static/js/787.c01dc334.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35d17ffa.css",
+    "static/js/main.1f5bba1c.js"
+  ]
+}
