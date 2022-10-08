@@ -2,13 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     width: 100%;
     padding: 50px 30px;
     max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 50px;
-
     background-color: var(--color-background);
     color:var(--color-primary)
 }
@@ -33,7 +31,6 @@
     justify-content: space-between;
     width:100%;
 }
-
 
 .header__menu ul li a {
     text-decoration: none;
