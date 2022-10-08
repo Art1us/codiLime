@@ -1,0 +1,58 @@
+.heroBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    padding: 0 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+
+}
+
+.heroBanner__left {
+    width: 467px;
+    height: 364px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heroBanner img{
+    object-fit: cover;
+}
+
+.heroBanner__left h1 {
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.heroBanner__left h1 strong {
+    color: var(--color-accent)
+}
+
+.heroBanner__desc {
+    margin-bottom: 10px;
+    width: 367px;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.heroBanner__button {
+    border: none;
+    background-color: var(--color-accent);
+    color: var(--color-white);
+
+    
+    width: 218px;
+    height: 46px;
+    font-size: 16px;
+}
+
+.heroBanner__button:hover {
+    background-color: var(--color-white);
+    color: var(--color-accent);
+    border: 2px solid var(--color-accent);
+}

@@ -1,0 +1,49 @@
+.quoteSection {
+    display: flex;
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+    margin-bottom: 140px;
+}
+
+.quoteSection__left {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    border-left: 10px solid var(--color-accent)
+}
+
+.quoteSection__left h3 {
+    color: var(--color-accent);
+    font-size: 28px;
+    padding: 10px;
+    width: 80%;
+}
+
+.quoteSection__right {
+    width: 60%;
+}
+
+.quoteSection__quote {
+    display: grid;
+    grid: repeat(3,auto) / repeat(2,auto);
+    row-gap: 15px;
+}
+
+.quoteSection__quote blockquote {
+    grid-row: 2;
+    grid-column: 1 /-1;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 24px;
+    width: 495px;
+    height: 129px;
+}
+
+.quoteSection__quote p {
+    grid-row: 3;
+}
+
+.quoteSection_quote1 {
+    grid-row: 3;
+}
