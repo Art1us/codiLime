@@ -8,7 +8,7 @@ function BottomSection() {
 
   return (
     <section className="bottomSection">
-      <article>
+      <article className="bottomSection__article">
         <h2 className="bottomSection__title">
           Massa tempor nec feugiat nisl pretium fusce
         </h2>

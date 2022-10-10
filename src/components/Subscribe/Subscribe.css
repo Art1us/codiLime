@@ -1,6 +1,6 @@
 .subscribe {
     background-color: var(--color-accent);
-    color:var(--color-background);
+    color: var(--color-background);
     height: 200px;
 }
 
@@ -18,7 +18,7 @@
     justify-content: space-evenly;
 }
 
-.subscribe__container form{
+.subscribe__container form {
     display: flex;
     align-items: center;
 }
@@ -26,22 +26,22 @@
 .subscribe__container form input {
     border: none;
     margin-right: 10px;
-    width: 502px;
+    max-width: 502px;
     height: 44px;
     font-size: 14px;
     border: 1px var(--color-background) solid;
     background-color: var(--color-background);
-    padding:0 10px;
+    padding: 0 10px;
 }
 
-.subscribe__container form input::placeholder{
+.subscribe__container form input::placeholder {
     color: var(--color-accent);
     font-size: 14px;
 }
 
 .subscribe__container form button {
     border: none;
-    width: 145px;
+    max-width: 145px;
     height: 44px;
     font-size: 16px;
     color: var(--color-background);
@@ -53,4 +53,25 @@
 .subscribe__container form button:hover {
     color: var(--color-accent);
     background-color: var(--color-background)
+}
+
+@media (max-width:600px) {
+    .subscribe__container form {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+
+    }
+
+    .subscribe__container form input {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .subscribe__container form button {
+        max-width: 100%;
+        width:100%;
+        margin: 0;
+    }
 }

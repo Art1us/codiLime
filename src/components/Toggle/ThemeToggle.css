@@ -1,9 +1,14 @@
 .themeToggle {
   display: flex;
   align-items: center;
+  margin: 0 5px;
 }
 .themeToggle span{
   margin-left:3px;
+}
+
+@media (max-width: 600px){
+  .themeToggle{display:none}
 }
 
 .react-toggle {

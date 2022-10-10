@@ -1,8 +1,8 @@
 body {
-    
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
   }
   
   img {
@@ -20,4 +20,5 @@ body {
   .app{
     background-color: var(--color-background);
     color: var(--color-primary);
+    max-width: 100vw;
   }

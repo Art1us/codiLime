@@ -5,7 +5,7 @@
     margin: 0 auto;
     margin-bottom: 140px;
     background-color: var(--color-background);
-    color:var(--color-primary);
+    color: var(--color-primary);
 }
 
 .quoteSection__left {
@@ -28,7 +28,7 @@
 
 .quoteSection__quote {
     display: grid;
-    grid: repeat(3,auto) / repeat(2,auto);
+    grid: repeat(3, auto) / repeat(2, auto);
     row-gap: 15px;
 }
 
@@ -38,8 +38,8 @@
     font-style: italic;
     font-size: 16px;
     line-height: 24px;
-    width: 495px;
-    height: 129px;
+    max-width: 495px;
+    
 }
 
 .quoteSection__quote p {
@@ -48,4 +48,23 @@
 
 .quoteSection_quote1 {
     grid-row: 3;
+}
+
+@media (max-width:600px) {
+    .quoteSection {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .quoteSection__left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .quoteSection__right {
+        width: 100%;
+    }
+
+    .quoteSection__quote{
+        margin-bottom:20px;
+    }
 }

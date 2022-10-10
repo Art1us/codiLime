@@ -2,8 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
     padding: 0 30px;
     max-width: 1200px;
     margin: 0 auto;
@@ -11,12 +9,11 @@
 
     background-color: var(--color-background);
     color:var(--color-primary);
-
+    
 }
 
 .heroBanner__left {
-    width: 467px;
-    height: 364px;
+    max-width: 467px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -47,8 +44,6 @@
     border: none;
     background-color: var(--color-accent);
     color: var(--color-white);
-
-    
     width: 218px;
     height: 46px;
     font-size: 16px;
@@ -58,4 +53,16 @@
     background-color: var(--color-white);
     color: var(--color-accent);
     border: 2px solid var(--color-accent);
+}
+
+@media(max-width:600px){
+    .heroBanner{
+        flex-direction: column-reverse;
+        margin-bottom: 60px;
+    }
+
+    .heroBanner__left{
+        text-align: center;
+        align-items: center;
+    }
 }

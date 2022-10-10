@@ -12,3 +12,4 @@ function ThemeToggle({toggleTheme, theme}) {
 }
 
 export default ThemeToggle;
+ 
