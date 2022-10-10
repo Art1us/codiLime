@@ -5,7 +5,7 @@
   --color-accent: #29CC6A;
   --color-background: #ffffff;
   --color-primary: #2B2D26;
-  --color-secondary: #787A7C;
+  --color-grey: #787A7C;
 
   --color-footer-bg: #2B2D26;
   --color-footer: #ffffff;
@@ -15,7 +15,7 @@
   --color-accent: #29CC6A;
   --color-background: #2B2D26;
   --color-primary: #ffffff;
-  --color-secondary: #787A7C;
+  --color-grey: #787A7C;
 }
 
 * {
