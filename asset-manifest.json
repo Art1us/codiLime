@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/codiLime/static/css/main.081c3168.css",
+    "main.css": "/codiLime/static/css/main.9cfb3890.css",
     "main.js": "/codiLime/static/js/main.32a0729e.js",
     "static/js/787.c01dc334.chunk.js": "/codiLime/static/js/787.c01dc334.chunk.js",
     "static/media/pic1.png": "/codiLime/static/media/pic1.3a83c2361a8f32dc830b.png",
     "index.html": "/codiLime/index.html",
-    "main.081c3168.css.map": "/codiLime/static/css/main.081c3168.css.map",
+    "main.9cfb3890.css.map": "/codiLime/static/css/main.9cfb3890.css.map",
     "main.32a0729e.js.map": "/codiLime/static/js/main.32a0729e.js.map",
     "787.c01dc334.chunk.js.map": "/codiLime/static/js/787.c01dc334.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.081c3168.css",
+    "static/css/main.9cfb3890.css",
     "static/js/main.32a0729e.js"
   ]
 }
