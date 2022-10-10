@@ -26,7 +26,7 @@
 .subscribe__container form input {
     border: none;
     margin-right: 10px;
-    max-width: 502px;
+    width: 502px;
     height: 44px;
     font-size: 14px;
     border: 1px var(--color-background) solid;
@@ -41,7 +41,7 @@
 
 .subscribe__container form button {
     border: none;
-    max-width: 145px;
+    width: 145px;
     height: 44px;
     font-size: 16px;
     color: var(--color-background);
@@ -63,15 +63,14 @@
 
     }
 
-    .subscribe__container form input {
+    .subscribe__container form input,
+    .subscribe__container form button {
         width: 100%;
         margin: 0;
-        margin-bottom: 5px;
+
     }
 
-    .subscribe__container form button {
-        max-width: 100%;
-        width:100%;
-        margin: 0;
+    .subscribe__container form input {
+        margin-bottom: 5px;
     }
 }
